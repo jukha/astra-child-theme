@@ -1,0 +1,142 @@
+/*
+Theme Name: Astra Child
+Template: astra
+*/
+/* Homepage CSS */
+
+/*
+============
+Google Fonts
+===========
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.elementor-container{
+	max-width:1920px !important;
+}
+
+/*
+=========
+Nav links
+=========
+*/
+.link_item a{
+	font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #fff !important;
+}
+
+
+/*
+=========
+Hero Section
+=========
+*/
+.heroSection{
+	min-height:1080px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background: linear-gradient(rgba(14, 161, 239, 0.75), rgba(6, 75, 202, 0.4)), url(http://localhost/green-brier/wordpress/wp-content/uploads/2023/03/heroImg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position:relative;
+	clip-path: polygon(0% 0%, 100% 0, 100% 96%, 0% 96%);
+}
+
+.heroPatternDiv{
+	margin-top:-60px;
+}
+.heroPatternDiv img{
+	width:100%;
+}
+
+
+.heroTagline h1{
+	font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 80px;
+line-height: 94px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF !important;
+}
+
+/*
+=============
+About Section
+=============
+*/
+#aboutUsSection{
+	margin:190px 0;
+}
+#aboutUsSection .sectionHeader{
+	margin:54px 0 30px;
+}
+#aboutUsSection .sectionText{
+	max-width:815px;
+}
+
+/*
+=================
+Expertise Section
+=================
+*/
+#expertiseSection{
+	position:relative;
+}
+#expertiseSection::after{
+	content:'';
+	background: linear-gradient(to right, rgba(11, 132, 221, 0.4), rgba(7, 93, 201, 0.9)), url(http://localhost/green-brier/wordpress/wp-content/uploads/2023/03/expertiseBg.png);
+	display:inline-block;
+	width:100%;
+	height:703px;
+	background-size:cover;
+	background-position:center;
+	position:absolute;
+	bottom:-703px;
+}
+#expetiseSection .sectionHeader{
+	position:relative;
+}
+#expertiseSection .sectionHeader::after{
+	content:'';
+	display:inline-block;
+	background:url(http://localhost/green-brier/wordpress/wp-content/uploads/2023/03/expertiseIllustration.png);
+	width:490px;
+	height:490px;
+	position:absolute;
+	top: -136px;
+    left: -39px;
+}
+#expertiseSection .sectionText p{
+	max-width:720px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.sectionHeader h2{
+	font-family: 'Raleway' !important;
+font-style: normal;
+font-weight: 700 !important;
+font-size: 60px;
+line-height: 70px !important;
+text-transform: capitalize;
+color: #000000 !important;
+}
+.sectionText p{
+	font-family: 'Raleway' !important;
+font-style: normal;
+font-weight: 400 !important;
+font-size: 20px;
+line-height: 35px !important;
+color: #000000 !important;
+}
